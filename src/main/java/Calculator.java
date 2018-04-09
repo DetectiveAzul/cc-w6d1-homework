@@ -1,20 +1,20 @@
 public class Calculator {
-    public static double Add(double number1, double number2) {
+    public static double add(double number1, double number2) {
         double result = number1 + number2;
         return result;
     }
 
-    public static double Substract(double number1, double number2) {
+    public static double substract(double number1, double number2) {
         double result = number1 - number2;
         return result;
     }
 
-    public static double Multiply(double number1, double number2) {
+    public static double multiply(double number1, double number2) {
         double result = number1 * number2;
         return result;
     }
 
-    public static double Divide(double number1, double number2) {
+    public static double divide(double number1, double number2) {
         double result = number1 / number2;
         return result;
     }
