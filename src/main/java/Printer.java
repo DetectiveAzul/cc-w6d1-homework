@@ -35,4 +35,9 @@ public class Printer {
         this.paperLeft += amount;
     }
 
+    public void refillToner(int amount) {
+        this.tonerVolume += amount;
+
+    }
+
 }

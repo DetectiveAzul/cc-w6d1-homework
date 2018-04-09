@@ -36,4 +36,10 @@ public class PrinterTest {
         printer01.print(10,2);
         assertEquals(80, printer01.getTonerVolume());
     }
+    @Test
+    public void tonerCanBeRefilled() {
+        printer01.print(10,2);
+        printer01.refillToner(20);
+        assertEquals(100,printer01.getTonerVolume());
+    }
 }
