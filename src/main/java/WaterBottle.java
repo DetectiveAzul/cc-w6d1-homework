@@ -7,6 +7,7 @@ public class WaterBottle {
 
     public void drink() {
         this.volume -= 10;
+        if (this.volume <= 0) { this.volume = 0; }
     }
 
     public void empty() {

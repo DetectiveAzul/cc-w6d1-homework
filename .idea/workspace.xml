@@ -442,7 +442,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrinterTest">
+  <component name="RunManager" selected="JUnit.WaterBottleTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -542,9 +542,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WaterBottleTest" />
         <item itemvalue="JUnit.PrinterTest" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.WaterBottleTest" />
       </list>
     </recent_temporary>
   </component>
